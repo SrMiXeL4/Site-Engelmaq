@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.fundo1 {
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.header-1{
+    top: 15px;
+    left: 1450px;
+    position: absolute;
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 25px 
+}
+
+.maquina img{
+    top: 600px;
+    left: 150px;
+    position: absolute;
+
+}
+
+.maquina h1{
+    top: 550px;
+    left: 1200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.whatsapp img{
+    top: 870px;
+    left: 1180px;
+    height: 120px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.garantia {
+    top: 650px;
+    left: 1000px;
+    font-size: large;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.condicao {
+    top: 700px;
+    left: 1000px;
+    font-size: large;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.disponibilidade {
+    top: 750px;
+    left: 1000px;
+    font-size: large;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.descricao h1{
+    top: 1000px;
+    left: 1200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.descricao p{
+    top: 1100px;
+    left: 1000px;
+    margin-right: 150px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+footer{
+    position: absolute;
+    background-color: #00aeeb;
+    top: 1450px;
+    width: 100%;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer .container{
+    display: flex;
+    color: white;
+}
+
+footer .container ul{
+    width: 25%;    
+}
+
+footer .container h3{
+    font-size: 35px
+}
+
+footer .container p{
+    font-size: 23px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:1366px){
+
+    .maquina img{
+        top: 400px;
+        left: 150px;
+        width: 500px;
+    
+    }
+    
+    .maquina h1{
+        top: 400px;
+        left: 860px;
+    }
+
+    .garantia {
+        top: 460px;
+        left: 800px;
+    }
+    
+    .condicao {
+        top: 500px;
+        left: 800px;
+    }
+    
+    .disponibilidade {
+        top: 540px;
+        left: 800px;
+    }
+    
+    .whatsapp img{
+        top: 660px;
+        left: 850px;
+        height: 120px;
+    }
+
+    
+    .descricao h1{
+        top: 800px;
+        left: 850px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .descricao p{
+        top: 860px;
+        left: 800px;
+        margin-right: 150px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+    }
+
+    .fundo1 img{
+        width: 100%;
+      }
+    
+      .header-2{
+        left: -40px;
+        position: absolute; 
+        background-color: #dedede;
+        top: 500px;
+        height: 100%;
+        width: 22%;
+        text-decoration: none;
+    }
+    
+    .header-2 h1{
+      font-size: 20px;
+    }
+    
+    .header-2 ul li{
+      list-style-type: none;
+    }
+    
+    .header-2 ul a{
+      display: block;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      line-height: 45px;
+      font-size: 15px;
+      color: black;
+      padding-left: 40px;
+      font-family: sans-serif;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(255, 255, 255, 1);
+      border-bottom: 1px solid black;
+      transition: .4s;
+    }
+
+    .header-1{
+        left: 950px;
+      }
+      
+      .menu ul li a{
+        font-size: 20px 
+      }
+
+      footer{
+        position: absolute;
+        background-color: #00aeeb;
+        top: 1150px;
+        width: 100%;
+        height: 350px;
+        font-family: sans-serif;
+      
+      }
+      footer .container{
+        display: flex;
+        color: white;
+      }
+      
+      footer .container ul{
+        width: 25%;    
+      }
+      
+      footer .container h3{
+        font-size: 25px
+      }
+      
+      footer .container p{
+        font-size: 13px;
+        text-align: left;
+        margin: 20px 0;
+      }
+
+    
+}
+

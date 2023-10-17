@@ -1,0 +1,870 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.fundo1 {
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+
+.header-1{
+    top: 15px;
+    left: 1450px;
+    position: absolute;
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 25px 
+}
+
+/* -----Maquina 1------ */
+
+.produtos1 img{
+    top: 550px;
+    left: 100px;
+    height: 300px;
+    position: absolute;
+}
+
+.produtos1 h1{
+    top: 850px;
+    left: 160px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixa {
+    background-color: 	#C0C0C0;
+    top: 950px;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.h1modelo1 h1{
+    top: 550px;
+    left: 580px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixaazul1 {
+    background-color: #00aeeb;
+    top: 630px;
+    left: 530px;
+    height: 7px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.faixapreta1 {
+    background-color: gray;
+    top: 730px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+.faixapreta2 {
+    background-color: gray;
+    top: 830px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.maquina1 {
+    position: absolute;
+    top: 650px;
+    left: 530px;
+    text-decoration: none;
+    
+}
+.maquina1 li{
+    list-style-type: none;
+}
+
+.maquina1 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.maquina2 {
+    position: absolute;
+    top: 745px;
+    left: 530px;
+}
+
+.maquina2 li{
+    list-style-type: none;
+}
+
+.maquina2 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.caracteristicas1 h1{
+    top: 550px;
+    left: 1200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----Maquina 2------ */
+
+.h1modelo2 h1{
+    top: 1000px;
+    left: 580px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caracteristicas21 h1{
+    top: 1000px;
+    left: 1200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixaazul21 {
+    background-color: #00aeeb;
+    top: 1100px;
+    left: 530px;
+    height: 7px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.faixapreta21 {
+    background-color: gray;
+    top: 1200px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+.faixapreta22 {
+    background-color: gray;
+    top: 1300px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.maquina21 {
+    position: absolute;
+    top: 1115px;
+    left: 530px;
+    text-decoration: none;
+    
+}
+
+.maquina21 li{
+    list-style-type: none;
+}
+
+.maquina21 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.maquina22 {
+    position: absolute;
+    top: 1215px;
+    left: 530px;
+}
+
+.maquina22 li{
+    list-style-type: none;
+}
+
+.maquina22 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+
+.produtos2 img{
+    top: 1050px;
+    left: 100px;
+    height: 300px;
+    position: absolute;
+}
+
+.produtos2 h1{
+    top: 1350px;
+    left: 140px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixa2 {
+    background-color: 	#C0C0C0;
+    top: 1500px;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+/* -----Maquina 3------ */
+
+.h1modelo3 h1{
+    top: 1550px;
+    left: 580px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caracteristicas31 h1{
+    top: 1550px;
+    left: 1200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixaazul31 {
+    background-color: #00aeeb;
+    top: 1630px;
+    left: 530px;
+    height: 7px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.faixapreta31 {
+    background-color: gray;
+    top: 1730px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+.faixapreta32 {
+    background-color: gray;
+    top: 1830px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.maquina31 {
+    position: absolute;
+    top: 1645px;
+    left: 530px;
+    text-decoration: none;
+    
+}
+
+.maquina31 li{
+    list-style-type: none;
+}
+
+.maquina31 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.maquina32 {
+    position: absolute;
+    top: 1745px;
+    left: 530px;
+}
+
+.maquina32 li{
+    list-style-type: none;
+}
+
+.maquina32 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* -----Maquina 4------ */
+
+.h1modelo4 h1{
+    top: 2080px;
+    left: 580px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caracteristicas41 h1{
+    top: 2080px;
+    left: 1200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixaazul41 {
+    background-color: #00aeeb;
+    top: 2160px;
+    left: 530px;
+    height: 7px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.faixapreta41 {
+    background-color: gray;
+    top: 2260px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+.faixapreta42 {
+    background-color: gray;
+    top: 2360px;
+    left: 530px;
+    height: 3px;
+    width: 70%;
+    position: absolute;
+
+}
+
+.maquina41 {
+    position: absolute;
+    top: 2175px;
+    left: 530px;
+    text-decoration: none;
+    
+}
+
+.maquina41 li{
+    list-style-type: none;
+}
+
+.maquina41 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.maquina42 {
+    position: absolute;
+    top: 2275px;
+    left: 530px;
+}
+
+.maquina42 li{
+    list-style-type: none;
+}
+
+.maquina42 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.produtos3 img{
+    top: 1590px;
+    left: 100px;
+    height: 300px;
+    position: absolute;
+}
+
+.produtos3 h1{
+    top: 1890px;
+    left: 240px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixa3 {
+    background-color: 	#C0C0C0;
+    top: 2030px;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.produtos4 img{
+    top: 2110px;
+    left: 100px;
+    height: 300px;
+    position: absolute;
+}
+
+.produtos4 h1{
+    top: 2390px;
+    left: 160px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: absolute;
+    background-color: #00aeeb;
+    top: 2550px;
+    width: 100%;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer .container{
+    display: flex;
+    color: white;
+}
+
+footer .container ul{
+    width: 25%;    
+}
+
+footer .container h3{
+    font-size: 35px
+}
+
+footer .container p{
+    font-size: 23px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:1366px){
+    .fundo1 img{
+        width: 100%;
+    }
+
+    .produtos1 img{
+        top: 400px;
+        left: 30px;
+    }
+    
+    .produtos1 h1{
+        top: 690px;
+        left: 120px;
+    }
+    
+    .faixa {
+        top: 800px;
+        left: 0px;
+        height: 10px;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .h1modelo1 h1{
+        top: 420px;
+        left: 450px;
+    }
+
+    .caracteristicas1 h1{
+        top: 420px;
+        left: 950px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .faixaazul1 {
+        top: 490px;
+        left: 450px;
+        width: 65%;
+    }
+    
+    .faixapreta1 {
+        top: 670px;
+        left: 450px;
+        width: 65%;
+        position: absolute;
+    
+    }
+    .faixapreta2 {
+        top: 580px;
+        left: 450px;
+        width: 65%;
+    
+    }
+    
+    .maquina1 {
+        position: absolute;
+        top: 500px;
+        left: 430px;
+        text-decoration: none;
+        
+    }
+    .maquina1 li{
+        list-style-type: none;
+    }
+    
+    .maquina1 a{
+        display: block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #333;
+        border: 2px solid #333;
+        letter-spacing: 2px;
+        text-align: center;
+    
+    }
+    
+    .maquina2 {
+        position: absolute;
+        top: 585px;
+        left: 430px;
+    }
+    
+    .maquina2 li{
+        list-style-type: none;
+    }
+    
+    .maquina2 a{
+        display: block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #333;
+        border: 2px solid #333;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    /* -----Maquina 3------ */
+    
+    .h1modelo2 h1{
+        top: 890px;
+        left: 520px;
+ 
+    }
+
+    .produtos2 img{
+        top: 850px;
+        left: 30px;
+        height: 300px;
+        position: absolute;
+    }
+    
+    .produtos2 h1{
+        top: 1150px;
+        left: 70px;
+    }
+    
+    .caracteristicas21 h1{
+        top: 890px;
+        left: 960px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .faixaazul21 {
+        top: 950px;
+        left: 500px;
+        width: 62%;
+    }
+
+    .maquina21 {
+        position: absolute;
+        top: 960px;
+        left: 470px;
+        text-decoration: none;
+        
+    }
+
+    .faixapreta21 {
+        top: 1050px;
+        left: 500px;
+        height: 3px;
+        width: 62%;
+        position: absolute;
+    
+    }
+
+    .maquina22 {
+        position: absolute;
+        top: 1060px;
+        left: 470px;
+    }
+
+    .faixapreta22 {
+        background-color: gray;
+        top: 1150px;
+        left: 500px;
+        width: 62%;
+    
+    }
+
+    .faixa2 {
+        top: 1250px;
+    }
+
+    /* -----Maquina 3------ */
+    .h1modelo3 h1{
+        top: 1370px;
+        left: 520px;
+    }
+
+    .produtos3 img{
+        top: 1320px;
+        left: 30px;
+        height: 300px;
+        position: absolute;
+    }
+    
+    .produtos3 h1{
+        top: 1590px;
+        left: 160px;
+    }
+    
+    .caracteristicas31 h1{
+        top: 890px;
+        left: 960px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .faixaazul31 {
+        top: 1430px;
+        left: 500px;
+        width: 62%;
+    }
+
+    .maquina31 {
+        position: absolute;
+        top: 1430px;
+        left: 470px;
+        text-decoration: none;
+        
+    }
+
+    .faixapreta31 {
+        top: 1500px;
+        left: 500px;
+        height: 3px;
+        width: 62%;
+        position: absolute;
+    
+    }
+
+    .maquina32 {
+        position: absolute;
+        top: 1500px;
+        left: 470px;
+    }
+
+    .faixapreta32 {
+        top: 1570px;
+        left: 500px;
+        width: 62%;
+    }
+
+    .faixa3 {
+        top: 1700px;
+    }
+     /* -----Maquina 3------ */
+     .h1modelo4 h1{
+        top: 1870px;
+        left: 520px;
+    }
+
+    .produtos4 img{
+        top: 1850px;
+        left: 0px;
+        height: 300px;
+        position: absolute;
+    }
+    
+    .produtos4 h1{
+        top: 2140px;
+        left: 80px;
+    }
+    
+    .caracteristicas41 h1{
+        top: 1870px;
+        left: 960px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .faixaazul41 {
+        top: 1930px;
+        left: 500px;
+        width: 62%;
+    }
+
+    .maquina41 {
+        top: 1930px;
+        left: 470px;
+        
+    }
+
+    .faixapreta41 {
+        top: 2010px;
+        left: 500px;
+        width: 62%;
+    
+    }
+
+    .maquina42 {
+        top: 2020px;
+        left: 470px;
+    }
+
+    .faixapreta42 {
+        top: 2100px;
+        left: 500px;
+        width: 62%;
+    }
+
+    footer{
+        top: 2235px;
+        width: 100%;
+        height: 250px;
+    }
+
+    
+    footer .container ul{
+        width: 15%;    
+    }
+    
+    footer .container h3{
+        font-size: 15px
+    }
+    
+    footer .container p{
+        font-size: 13px;
+        text-align: left;
+        margin: 10px 0;
+    }
+
+    .header-1{
+        top: 15px;
+        left: 950px;
+        position: absolute;
+      }
+      
+      .menu ul li{
+          display: inline-block;
+          color: #fff;
+          margin-left: 30px;
+      }
+      
+      .menu ul li a{
+          display: inline-block;
+          color:#fff;
+          font-family: sans-serif;
+          text-decoration: none;
+          font-size: 20px 
+      }
+
+}
