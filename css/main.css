@@ -396,7 +396,7 @@ footer .container p{
         top: -200px;
         right: 350px;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .info1 p{
@@ -409,33 +409,33 @@ footer .container p{
         top: 800px;
         right: 620px;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .info3{
         top: 800px;
         right: 90px;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
     }
     .info4{
         top: 1200px;
         right: 980px;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
     }
     .info5{
         top: 1200px;
         right: 550px;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
     }
     .info6{
         position: absolute;
         top: 1200px;
         right: 120px;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
     
