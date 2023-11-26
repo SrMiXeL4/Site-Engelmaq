@@ -34,7 +34,7 @@ body{
 .manual-navigation{
     position: absolute;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -50px;
     display: flex;
     justify-content: center;
 
@@ -62,15 +62,15 @@ body{
 
 }
 #radio2:checked ~ .first{
-    margin-left: -102%;
+    margin-left: -100%;
 
 }
 #radio3:checked ~ .first{
-    margin-left: -202%;
+    margin-left: -200%;
 
 }
 #radio4:checked ~ .first{
-    margin-left: -303%;
+    margin-left: -300%;
 
 }
 
@@ -115,8 +115,8 @@ body{
 .haas {
 
     position: absolute;
-    top: 0px;
-    right: 1330px;
+    top: 10px;
+    right: 950px;
 }
 
 
@@ -130,7 +130,7 @@ body{
 
 .header-1{
     top: 15px;
-    left: 1450px;
+    left: 1050px;
     position: absolute;
   }
   
@@ -150,16 +150,16 @@ body{
 
 .informações{
     position: relative;
-    top: 1100px;
+    top: 700px;
     right: 550px;
 }
 
 .info1{
     position: absolute;
-    top: 10px;
-    right: 800px;
+    top: 100px;
+    right: 510px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -170,42 +170,42 @@ body{
 
 .info2{
     position: absolute;
-    top: 1100px;
-    right: 830px;
+    top: 800px;
+    right: 710px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .info3{
     position: absolute;
-    top: 1100px;
+    top: 800px;
     right: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .info4{
     position: absolute;
-    top: 1700px;
-    right: 1350px;
+    top: 1100px;
+    right: 1050px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .info5{
     position: absolute;
-    top: 1700px;
-    right: 720px;
+    top: 1100px;
+    right: 620px;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .info6{
     position: absolute;
-    top: 1700px;
-    right: 50px;
+    top: 1090px;
+    right: 80px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -214,7 +214,7 @@ body{
 footer{
     position: absolute;
     background-color: #00aeeb;
-    top: 1950px;
+    top: 1470px;
     width: 100%;
     height: 450px;
     font-family: Arial, Helvetica, sans-serif;
@@ -230,11 +230,11 @@ footer .container ul{
 }
 
 footer .container h3{
-    font-size: 35px
+    font-size: 25px
 }
 
 footer .container p{
-    font-size: 23px;
+    font-size: 17px;
     text-align: left;
     margin: 20px 0;
 }
@@ -295,15 +295,15 @@ footer .container p{
     
     }
     #radio2:checked ~ .first{
-        margin-left: -102%;
+        margin-left: -100%;
     
     }
     #radio3:checked ~ .first{
-        margin-left: -203%;
+        margin-left: -200%;
     
     }
     #radio4:checked ~ .first{
-        margin-left: -304%;
+        margin-left: -300%;
     
     }
     
@@ -442,7 +442,7 @@ footer .container p{
     
     
     footer{
-        top: 1535px;
+        top: 1565px;
         width: 100%;
         height: 350px;
     }
@@ -470,471 +470,7 @@ footer .container p{
 
 
 
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-}
 
-
-.slider{
-    margin: 0 auto;
-    overflow: hidden;   
-}
-
-
-
-.slides{
-
-    display: flex;
-}
-
-.slides input{
-    display: none;
-}
-
-.slide{
-    position: relative;
-    transition: 1s;
-
-}
-
-.manual-navigation{
-    position: absolute;
-    width: 100%;
-    margin-top: -100px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.manual-btn{
-    border: 3px solid #fff;
-    padding: 10px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 30px;
-
-}
-
-.manual-btn:hover{
-    background-color: #fff;
-}
-
-#radio1:checked ~ .first{
-    margin-left: 0%;
-
-}
-#radio2:checked ~ .first{
-    margin-left: -102%;
-
-}
-#radio3:checked ~ .first{
-    margin-left: -202%;
-
-}
-#radio4:checked ~ .first{
-    margin-left: -303%;
-
-}
-
-.navigation-auto div{
-    border: 2px solid #20a6ff;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navigation-auto{
-    position: absolute;
-    width: 1700px;
-    margin-top: -100px;
-    display: flex;
-    justify-content: center;
-}
-
-#radio1:checked ~ .navigation-auto .autobtn1{
-    background-color: #fff;
-}
-#radio2:checked ~ .navigation-auto .autobtn2{
-    background-color: #fff;
-}
-#radio3:checked ~ .navigation-auto .autobtn3{
-    background-color: #fff;
-}
-#radio4:checked ~ .navigation-auto .autobtn4{
-    background-color: #fff;
-}
-
-.navigation-auto div:not(:last-child){
-    margin-right: 30px;
-}
-
-.logo {
-    width: 100%;
-    position: absolute;
-}
-
-.haas {
-
-    position: absolute;
-    top: 0px;
-    right: 1330px;
-}
-
-
-.header-2{
-    top: 15px;
-    left: 1300px;
-    
-    position: absolute;
-
-}
-
-.header-1{
-    top: 15px;
-    left: 1450px;
-    position: absolute;
-  }
-  
-  .menu ul li{
-      display: inline-block;
-      color: #fff;
-      margin-left: 30px;
-  }
-  
-  .menu ul li a{
-      display: inline-block;
-      color:#fff;
-      font-family: sans-serif;
-      text-decoration: none;
-      font-size: 25px 
-  }
-
-.informações{
-    position: relative;
-    top: 1100px;
-    right: 550px;
-}
-
-.info1{
-    position: absolute;
-    top: 10px;
-    right: 800px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.info1 p{
-    width: 500px;
-    height: 1000px;
-}
-
-.info2{
-    position: absolute;
-    top: 1100px;
-    right: 830px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.info3{
-    position: absolute;
-    top: 1100px;
-    right: 50px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.info4{
-    position: absolute;
-    top: 1700px;
-    right: 1350px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.info5{
-    position: absolute;
-    top: 1700px;
-    right: 720px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.info6{
-    position: absolute;
-    top: 1700px;
-    right: 50px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-footer{
-    position: absolute;
-    background-color: #00aeeb;
-    top: 1950px;
-    width: 100%;
-    height: 450px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-footer .container{
-    display: flex;
-    color: white;
-}
-
-footer .container ul{
-    width: 25%;    
-}
-
-footer .container h3{
-    font-size: 35px
-}
-
-footer .container p{
-    font-size: 23px;
-    text-align: left;
-    margin: 20px 0;
-}
-
-@media screen and (max-width: 1366px) { 
-    
-    .slider{
-        margin: 0 auto;
-        overflow: hidden;   
-    }
-
-    .slide img{
-        width: 1366px;
-    }
-    
-    .slides{
-        display: flex;
-    }
-    
-    .slides input{
-        display: none;
-    }
-    
-    .slide{
-        position: relative;
-        transition: 1s;
-    
-    }
-    
-    .manual-navigation{
-        position: absolute;
-        width: 100%;
-        margin-top: -90px;
-        display: flex;
-        justify-content: center;
-    
-    }
-    
-    .manual-btn{
-        border: 3px solid #fff;
-        padding: 10px;
-        border-radius: 25px;
-        cursor: pointer;
-        transition: 1s;
-    }
-    
-    .manual-btn:not(:last-child){
-        margin-right: 30px;
-    
-    }
-    
-    .manual-btn:hover{
-        background-color: #fff;
-    }
-    
-    #radio1:checked ~ .first{
-        margin-left: 0%;
-    
-    }
-    #radio2:checked ~ .first{
-        margin-left: -102%;
-    
-    }
-    #radio3:checked ~ .first{
-        margin-left: -203%;
-    
-    }
-    #radio4:checked ~ .first{
-        margin-left: -304%;
-    
-    }
-    
-    .navigation-auto div{
-        border: 2px solid #20a6ff;
-        padding: 5px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 1s;
-    }
-    
-    .navigation-auto{
-        position: absolute;
-        width: 1700px;
-        margin-top: -100px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #radio1:checked ~ .navigation-auto .autobtn1{
-        background-color: #fff;
-    }
-    #radio2:checked ~ .navigation-auto .autobtn2{
-        background-color: #fff;
-    }
-    #radio3:checked ~ .navigation-auto .autobtn3{
-        background-color: #fff;
-    }
-    #radio4:checked ~ .navigation-auto .autobtn4{
-        background-color: #fff;
-    }
-    
-    .navigation-auto div:not(:last-child){
-        margin-right: 30px;
-    }
-    
-
-    .logo img{
-        width: 300px;
-    }
-
-
-    
-    .haas {
-        top: 0px;
-        right: 900px;
-    }
-
-    .haas img{
-        width: 150px;
-        height: 150px;
-    }
-    
-    
-    .header-2{
-        top: 15px;
-        left: 1300px;
-        
-        position: absolute;
-    
-    }
-    
-    .header-1{
-        top: 15px;
-        left: 950px;
-        position: absolute;
-      }
-      
-      .menu ul li{
-          display: inline-block;
-          color: #fff;
-          margin-left: 30px;
-      }
-      
-      .menu ul li a{
-          display: inline-block;
-          color:#fff;
-          font-family: sans-serif;
-          text-decoration: none;
-          font-size: 20px 
-      }
-    
-    .informações{
-        position: relative;
-        top: 1000px;
-        right: 550px;
-    }
-    
-    .info1{
-        top: -200px;
-        right: 350px;
-        text-align: center;
-        font-size: 15px;
-    }
-    
-    .info1 p{
-        width: 500px;
-        height: 1000px;
-    }
-
-    
-    .info2{
-        top: 800px;
-        right: 620px;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .info3{
-        top: 800px;
-        right: 40px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .info4{
-        top: 1200px;
-        right: 980px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .info5{
-        top: 1200px;
-        right: 500px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .info6{
-        position: absolute;
-        top: 1200px;
-        right: 50px;
-        text-align: center;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    
-    
-    footer{
-        top: 1535px;
-        width: 100%;
-        height: 350px;
-    }
-
-    
-    footer .container ul{
-        width: 15%;    
-    }
-    
-    footer .container h3{
-        font-size: 15px
-    }
-    
-    footer .container p{
-        font-size: 13px;
-        text-align: left;
-        margin: 10px 0;
-    }
-
-}
 
 
 
