@@ -1,15 +1,18 @@
-let count = 1;
-document.getElementById("radio1").checked = true;
 
-setInterval(function(){
+var radio = document.querySelector('.manual-btn')
+var count = 1 
+
+document.getElementById('radio1').checked = true
+
+setInterval(() =>{
     nextImage()
 },5000)
 
 function nextImage(){
-    count++;
+    count++
     if(count>4){
-        count=1;
+        count=1
     }
 
-    document.getElementById("radio"+count).checked = true;
+    document.getElementById('radio'+count).checked = true
 }

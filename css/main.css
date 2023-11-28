@@ -54,7 +54,7 @@ body{
 }
 
 .manual-btn:hover{
-    background-color: #fff;
+    background-color: blue;
 }
 
 #radio1:checked ~ .first{
@@ -91,16 +91,16 @@ body{
 }
 
 #radio1:checked ~ .navigation-auto .autobtn1{
-    background-color: #fff;
+    background-color: blue;
 }
 #radio2:checked ~ .navigation-auto .autobtn2{
-    background-color: #fff;
+    background-color:  blue;
 }
 #radio3:checked ~ .navigation-auto .autobtn3{
-    background-color: #fff;
+    background-color: blue;
 }
 #radio4:checked ~ .navigation-auto .autobtn4{
-    background-color: #fff;
+    background-color: blue;
 }
 
 .navigation-auto div:not(:last-child){
@@ -255,7 +255,7 @@ footer .container p{
     }
     
     .slides input{
-        display: none;
+       /*display: none;*/
     }
     
     .slide{
@@ -274,7 +274,7 @@ footer .container p{
     }
     
     .manual-btn{
-        border: 3px solid #fff;
+        border: 3px solid  grey;
         padding: 10px;
         border-radius: 25px;
         cursor: pointer;
@@ -287,7 +287,7 @@ footer .container p{
     }
     
     .manual-btn:hover{
-        background-color: #fff;
+        background-color: #20a6ff;
     }
     
     #radio1:checked ~ .first{
@@ -295,22 +295,22 @@ footer .container p{
     
     }
     #radio2:checked ~ .first{
-        margin-left: -100%;
+        margin-left: -102%;
     
     }
     #radio3:checked ~ .first{
-        margin-left: -200%;
+        margin-left: -203%;
     
     }
     #radio4:checked ~ .first{
-        margin-left: -300%;
+        margin-left: -304%;
     
     }
     
     .navigation-auto div{
         border: 2px solid #20a6ff;
         padding: 5px;
-        border-radius: 10px;
+        border-radius: 7px;
         cursor: pointer;
         transition: 1s;
     }
@@ -324,16 +324,16 @@ footer .container p{
     }
     
     #radio1:checked ~ .navigation-auto .autobtn1{
-        background-color: #fff;
+        background-color: blue;
     }
     #radio2:checked ~ .navigation-auto .autobtn2{
-        background-color: #fff;
+        background-color:  blue;
     }
     #radio3:checked ~ .navigation-auto .autobtn3{
-        background-color: #fff;
+        background-color: blue;
     }
     #radio4:checked ~ .navigation-auto .autobtn4{
-        background-color: #fff;
+        background-color: blue;
     }
     
     .navigation-auto div:not(:last-child){
@@ -348,8 +348,8 @@ footer .container p{
 
     
     .haas {
-        top: 0px;
-        right: 900px;
+        top: 70px;
+        right: 100px;
     }
 
     .haas img{
