@@ -110,6 +110,7 @@ body{
 .logo {
     width: 100%;
     position: absolute;
+    left: 10px;
 }
 
 .haas {
@@ -343,6 +344,7 @@ footer .container p{
 
     .logo img{
         width: 300px;
+        left: 30px;
     }
 
 
@@ -460,6 +462,23 @@ footer .container p{
         font-size: 13px;
         text-align: left;
         margin: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+    
+    .info1{
+        right: 275px;
+    }
+    
+    .info2{
+        right: 550px;
+    }
+
+    .info3{
+        width: 35%;
+
     }
 
 }
