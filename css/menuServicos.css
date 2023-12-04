@@ -11,9 +11,9 @@ body{
 
 .fundo1 h1{
 position: absolute;
-color: #fff;
+color: black;
 left: 45%;
-top: 390px;
+top: 440px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -139,7 +139,7 @@ margin: 20px 0;
 
 @media screen and (max-width:1366px) {
 .fundo1 img{
-  width: 100%;
+  left: 50px;
 }
 
 .header-2{

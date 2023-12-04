@@ -69,10 +69,6 @@ body{
     margin-left: -200%;
 
 }
-#radio4:checked ~ .first{
-    margin-left: -300%;
-
-}
 
 .navigation-auto div{
     border: 2px solid #20a6ff;
@@ -99,9 +95,6 @@ body{
 #radio3:checked ~ .navigation-auto .autobtn3{
     background-color: blue;
 }
-#radio4:checked ~ .navigation-auto .autobtn4{
-    background-color: blue;
-}
 
 .navigation-auto div:not(:last-child){
     margin-right: 30px;
@@ -111,12 +104,39 @@ body{
     width: 100%;
     position: absolute;
     left: 10px;
+    top: 50px;
+}
+
+.contato img{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+.contato b{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato2 img{
+    position: absolute;
+    top: 0px;
+    left: 235px;
+}
+
+.contato2 b{
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .haas {
 
     position: absolute;
-    top: 10px;
+    top: 70px;
     right: 950px;
 }
 
@@ -241,6 +261,7 @@ footer .container p{
 }
 
 @media screen and (max-width: 1366px) { 
+
     
     .slider{
         margin: 0 auto;
@@ -303,10 +324,6 @@ footer .container p{
         margin-left: -203%;
     
     }
-    #radio4:checked ~ .first{
-        margin-left: -304%;
-    
-    }
     
     .navigation-auto div{
         border: 2px solid #20a6ff;
@@ -333,9 +350,7 @@ footer .container p{
     #radio3:checked ~ .navigation-auto .autobtn3{
         background-color: blue;
     }
-    #radio4:checked ~ .navigation-auto .autobtn4{
-        background-color: blue;
-    }
+    
     
     .navigation-auto div:not(:last-child){
         margin-right: 30px;
@@ -351,7 +366,7 @@ footer .container p{
     
     .haas {
         top: 70px;
-        right: 100px;
+        right: 850px;
     }
 
     .haas img{
@@ -396,7 +411,7 @@ footer .container p{
     
     .info1{
         top: -200px;
-        right: 350px;
+        right: 330px;
         text-align: center;
         font-size: 15px;
     }
@@ -422,20 +437,23 @@ footer .container p{
     }
     .info4{
         top: 1200px;
-        right: 980px;
+        right: 940px;
         text-align: center;
         font-size: 15px;
+        width: 400px;
     }
     .info5{
         top: 1200px;
         right: 500px;
         text-align: center;
         font-size: 15px;
+        width: 400px;
     }
     .info6{
         position: absolute;
         top: 1200px;
         right: 50px;
+        width: 400px;
         text-align: center;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
